@@ -1,0 +1,2 @@
+Static analysis tools analyse program code, generated output but also help to assess the complexity of the component.
+Static analysis reviews code and finds defects whereas dynamic analysis executes code and finds failures
