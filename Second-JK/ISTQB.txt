@@ -1,0 +1,71 @@
+30    What is the main difference between a walkthrough and an inspection?
+a)    An inspection is lead by the author, whilst a walkthrough is lead by a trained moderator.
+b)    An inspection has a trained leader, whilst a walkthrough has no leader.
+c)    Authors are not present during inspections, whilst they are during walkthroughs.
+d)    A walkthrough is lead by the author, whilst an inspection is lead by a trained moderator.
+
+D
+
+
+28    An important benefit of code inspections is that they:
+a)    enable the code to be tested before the execution environment is ready.
+b)    can be performed by the person who wrote the code.
+c)    can be performed by inexperienced staff.
+d)    are cheap to perform.
+
+A
+
+33    Static analysis is best described as:
+a)    the analysis of batch programs.
+b)    the reviewing of test plans.
+c)    the analysis of program code.
+d)    the use of black box testing.
+
+C
+
+Q28    What type of review requires formal entry and exit criteria, including metrics:
+
+a)    walkthrough
+b)    inspection
+c)    management review
+d)    post project review
+
+B
+
+Q30    What is NOT included in typical costs for an inspection process?
+
+a)    setting up forms and databases
+b)    analyzing metrics and improving processes
+c)    writing the documents to be inspected
+d)    time spent on the document outside the meeting
+
+C
+
+Q32    Which expression best matches the following characteristics of the review processes:
+
+1.    led by the author
+2.    undocumented
+3.    no management participation
+4.    led by a moderator or leader
+5.    uses entry and exit criteria
+
+s)    inspection
+t)    peer review
+u)    informal review
+v)    walkthrough
+
+a)    s = 4 and 5, t = 3, u = 2, v = 1
+b)    s = 4, t = 3, u = 2 and 5, v = 1
+c)    s = 1 and 5, t = 3, u = 2, v = 4
+d)    s = 4 and 5, t = 1, u= 2, v = 3
+
+A
+
+Q38    Could reviews or inspections be considered part of testing?
+
+a)    no, because they apply to development documentation
+b)    no, because they are normally applied before testing
+c)    yes, because both help detect faults and improve quality
+d)    yes, because testing includes all non-constructive activities
+
+C
