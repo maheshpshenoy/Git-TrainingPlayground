@@ -1,71 +1,305 @@
-30    What is the main difference between a walkthrough and an inspection?
-a)    An inspection is lead by the author, whilst a walkthrough is lead by a trained moderator.
-b)    An inspection has a trained leader, whilst a walkthrough has no leader.
-c)    Authors are not present during inspections, whilst they are during walkthroughs.
-d)    A walkthrough is lead by the author, whilst an inspection is lead by a trained moderator.
+1. Which expression best matches the following characteristics or review processes:1. led by author 2. undocumented 3. no management participation 4. led by a trained moderator or leader 5. uses entry exit criteria s) inspection t) peer review u) informal review v) walkthrough 
+A s = 4, t = 3, u = 2 and 5, v = 1
+B s = 4 and 5, t = 3, u = 2, v = 1
+C s = 1 and 5, t = 3, u = 2, v = 4
+D s = 5, t = 4, u = 3, v = 1 and 2
+E s = 4 and 5, t = 1, u = 2, v = 3
 
-D
+2. Could reviews or inspections be considered part of testing: 
+
+A No, because they apply to development documentation
+B No, because they are normally applied before testing
+C No, because they do not apply to the test documentation
+D Yes, because both help detect faults and improve quality
+E Yes, because testing includes all non-constructive activities
+
+3. What can static analysis NOT find? 
+
+A The use of a variable before it has been defined
+B Unreachable (“dead”) code
+C Whether the value stored in a variable is correct
+D The re-definition of a variable before it has been used
+E Array bound violations
+
+4. Which of the following statements regarding static testing is false:
+a) static testing requires the running of tests through the code
+b) static testing includes desk checking
+c) static testing includes techniques such as reviews and inspections
+d) static testing can give measurements such as cyclomatic complexity
+
+5. Unreachable code would best be found using: 
+
+A. code reviews
+B. code inspections
+C. a coverage tool
+D. a test management tool
+E. a static analysis tool
+
+6. Given the following types of tool, which tools would typically be used by developers and which by an independent test team: i. static analysis ii. performance testing iii. test management iv. dynamic analysis v. test running vi. test data preparation 
+
+A. developers would typically use i, iv and vi; test team ii, iii and v
+B. developers would typically use i and iv; test team ii, iii, v and vi
+C. developers would typically use i, ii, iii and iv; test team v and vi
+D. developers would typically use ii, iv and vi; test team I, ii and v
+E. developers would typically use i, iii, iv and v; test team ii and vi
+
+7. In a review meeting a moderator is a person who:
+A. Takes minutes of the meeting
+B. Mediates between people
+C. Takes telephone calls
+D. Writes the documents to be reviewed
+
+8. Peer Reviews are also called as :
+
+A. Inspection
+B. Walkthrough
+C. Technical Review
+D. Formal Review
+
+ 
+9. Success Factors for a review include :
+
+i.   Each Review does not have a predefined objective
+ii.  Defects found are welcomed and expressed objectively 
+iii. Management supports a good review process.
+iv.  There is an emphasis on learning and process improvement
+
+A. ii,iii,iv are correct and i is incorrect
+B. iii , i , iv is correct and ii is incorrect
+C. i , iii , iv , ii is incorrect
+D. ii is correct
 
 
-28    An important benefit of code inspections is that they:
-a)    enable the code to be tested before the execution environment is ready.
-b)    can be performed by the person who wrote the code.
-c)    can be performed by inexperienced staff.
-d)    are cheap to perform.
+10. Which of the following statements about reviews is true?
 
-A
+A. Reviews cannot be performed on user requirements specifications.
+B. Reviews are the least effective way of testing code.
+C. Reviews are unlikely to find faults in test plans.
+D. Reviews should be performed on specifications, code, and test plans.
 
-33    Static analysis is best described as:
-a)    the analysis of batch programs.
-b)    the reviewing of test plans.
-c)    the analysis of program code.
-d)    the use of black box testing.
+11. Out of the following what is NOT a value of static analysis?
 
-C
+A. Prevention of defects
+B. Identification of defects not easily found by dynamic testing
+C. Improved maintainability of code and design
+D. Inexpensive way to get some benefit
 
-Q28    What type of review requires formal entry and exit criteria, including metrics:
+12. In a review meeting a moderator is a person who
 
-a)    walkthrough
-b)    inspection
-c)    management review
-d)    post project review
+A. Takes minutes of the meeting
+B. Mediates between people
+C. Takes telephone calls
+D. Writes the documents to be reviewed
 
-B
+13. Code Coverage is used as a measure of what ?
+a. Defects
+b. Trends analysis
+c. Test Effectiveness
+d. Time Spent Testing
 
-Q30    What is NOT included in typical costs for an inspection process?
+14. An important benefit of code inspections is that they:
+a) enable the code to be tested before the execution environment is ready.
+b) can be performed by the person who wrote the code.
+c) can be performed by inexperienced staff.
+d) are cheap to perform.
 
-a)    setting up forms and databases
-b)    analyzing metrics and improving processes
-c)    writing the documents to be inspected
-d)    time spent on the document outside the meeting
+15. What is the main difference between a walkthrough and an inspection?
+a) An inspection is lead by the author, whilst a walkthrough is lead by a trained
+moderator.
+b) An inspection has a trained leader, whilst a walkthrough has no leader.
+c) Authors are not present during inspections, whilst they are during walkthroughs.
+d) A walkthrough is lead by the author, whilst an inspection is lead by a trained
+moderator.
 
-C
+16. Static analysis is best described as:
+a) the analysis of batch programs.
+b) the reviewing of test plans.
+c) the analysis of program code.
+d) the use of black box testing.
 
-Q32    Which expression best matches the following characteristics of the review processes:
+17. Which of the following activities differentiate a walkthrough from a formal review?
+a. A walkthrough does not follow a defined process
+b. For a walkthrough individual preparation by the reviewers is optional
+c. A walkthrough requires meeting
+d. A walkthrough finds the causes of failures, while formal review finds the failures
 
-1.    led by the author
-2.    undocumented
-3.    no management participation
-4.    led by a moderator or leader
-5.    uses entry and exit criteria
 
-s)    inspection
-t)    peer review
-u)    informal review
-v)    walkthrough
+18. A program with high cyclometic complexity is almost likely to be:
+a. Large
+b. Small
+c. Difficult to write
+d. Difficult to test
 
-a)    s = 4 and 5, t = 3, u = 2, v = 1
-b)    s = 4, t = 3, u = 2 and 5, v = 1
-c)    s = 1 and 5, t = 3, u = 2, v = 4
-d)    s = 4 and 5, t = 1, u= 2, v = 3
+19. Which of the following statements is NOT true:
+a) inspection is the most formal review process
+b) inspections should be led by a trained leader
+c) managers can perform inspections on management documents
+d) inspection is appropriate even when there are no written documents
+e) inspection compares documents with predecessor (source) documents
 
-A
+20. Unreachable code would best be found using:
+a) code reviews
+b) code inspections
+c) a coverage tool
+d) a test management tool
+e) a static analysis tool
 
-Q38    Could reviews or inspections be considered part of testing?
+21. Could reviews or inspections be considered part of testing:
+a) No, because they apply to development documentation
+b) No, because they are normally applied before testing
+c) No, because they do not apply to the test documentation
+d) Yes, because both help detect faults and improve quality
+e) Yes, because testing includes all non-constructive activities
 
-a)    no, because they apply to development documentation
-b)    no, because they are normally applied before testing
-c)    yes, because both help detect faults and improve quality
-d)    yes, because testing includes all non-constructive activities
+22. An important benefit of code inspections is that they:
+a) enable the code to be tested before the execution environment is ready.
+b) can be performed by the person who wrote the code.
+c) can be performed by inexperienced staff.
+d) are cheap to perform.
 
-C
+23. What is the main difference between a walkthrough and an inspection?
+a) An inspection is lead by the author, whilst a walkthrough is lead by a trained
+moderator.
+b) An inspection has a trained leader, whilst a walkthrough has no leader.
+c) Authors are not present during inspections, whilst they are during walkthroughs.
+d) A walkthrough is lead by the author, whilst an inspection is lead by a trained
+moderator.
+
+
+24. Static analysis is best described as:
+a) the analysis of batch programs.
+b) the reviewing of test plans.
+c) the analysis of program code.
+d) the use of black box testing.
+
+
+25. Which of the following is true about Formal Review or Inspection:-
+i. Led by Trained Moderator (not the author).
+ii. No Pre Meeting Preparations
+iii. Formal Follow up process.
+iv. Main Objective is to find defects
+a) ii is true and i,iii,iv are false
+b) i,iii,iv are true and ii is false
+c) i,iii,iv are false and ii is true
+d) iii is true and I,ii,iv are false
+
+
+26. Inspections can find all the following except
+a. Variables not defined in the code
+b. Spelling and grammar faults in the documents
+c. Requirements that have been omitted from the design documents
+d. How much of the code has been covered
+
+
+27. Consider the following techniques. Which are static and which are dynamic techniques?
+i. Equivalence Partitioning.
+ii. Use Case Testing.
+iii.Data Flow Analysis.
+iv.Exploratory Testing.
+v. Decision Testing.
+vi Inspections.
+A. i-iv are static, v-vi are dynamic.
+B. iii and vi are static, i, ii, iv and v are dynamic.
+C. ii, iii and vi are static, i, iv and v are dynamic.
+D. vi is static, i-v are dynamic. 
+
+
+28. Given the following types of tool, which tools would typically be used by
+developers, and which by an independent system test team?
+i.static analysis
+ii.performance testing
+iii.test management
+iv.dynamic analysis
+a)developers would typically use i and iv; test team ii and iii
+b)developers would typically use i and iii; test team ii and iv
+c)developers would typically use ii and iv; test team i and iii
+d)developers would typically use i, iii and iv; test team ii
+
+
+29. What type of review requires formal entry and exit criteria, including metrics:
+a)walkthrough
+b)inspection
+c)management review
+d)post project review
+
+
+30. What is NOT included in typical costs for an inspection process?
+a)setting up forms and databases
+b)analysing metrics and improving processes
+c)writing the documents to be inspected
+d)time spent on the document outside the meeting
+
+
+31. Could reviews or inspections be considered part of testing?
+a)no, because they apply to development documentation
+b)no, because they are normally applied before testing
+c)yes, because both help detect faults and improve quality
+d)yes, because testing includes all non-constructive activities
+
+32. Which of the following is correct about static analysis tools?
+a. Static analysis tools are used only by developers
+b. Compilers may offer some support for static analysis
+c. Static analysis tools help find failures rather than defects
+d. Static analysis tools require execution of the code to analyse the coverage
+
+33. What makes an inspection different from other review types?
+a. It is led by a trained leader, uses formal entry and exit criteria and checklists
+b. It is led by the author of the document to be inspected
+c. It can only be used for reviewing design and code
+d. It is led by the author, uses checklists, and collects data for improvement
+
+34. Which of the following is correct about static analysis tools
+a. They help you find defects rather than failures
+b. They are used by developers only
+c. They require compilation of code
+d. They are useful only for regulated industries
+
+35. The Phases of formal review process is mentioned below arrange them in the correct
+order.
+i. Planning
+ii. Review Meeting
+iii. Rework
+iv. Individual Preparations
+v. Kick Off
+vi. Follow Up
+a) i,ii,iii,iv,v,vi
+b) vi,i,ii,iii,iv,v
+c) i,v,iv,ii,iii,vi
+d) i,ii,iii,v,iv,vi
+
+36. The Planning phase of a formal review includes the following :-
+a) Explaining the objectives
+b) Selecting the personnel, allocating roles.
+c) Follow up
+d) Individual Meeting preparations
+
+37. A Person who documents all the issues, problems and open points that were identified
+during a formal review.
+a) Moderator.
+b) Scribe
+c) Author
+d) Manager
+
+38. Who are the persons involved in a Formal Review :-
+i. Manager
+ii. Moderator
+iii. Scribe / Recorder
+iv. Assistant Manager
+a) i,ii,iii,iv are true
+b) i,ii,iii are true and iv is false.
+c) ii,iii,iv are true and i is false.
+d) i,iv are true and ii, iii are false.
+
+
+39. Which of the following is a Key Characteristics of Walk Through
+a) Scenario , Dry Run , Peer Group
+b) Pre Meeting Preparations
+c) Formal Follow Up Process
+d) Includes Metrics
+
+40. Which rule should not be followed for reviews
+
+a. Defects and issues are identified and corrected
+b. The product is reviewed not the producer
+c. All members of the reviewing team are responsible for the result of the review
+d. Each review has a clear predefined objective
